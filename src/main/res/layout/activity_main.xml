@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Organizador de Tarefas"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/editTarefa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite uma tarefa"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <Button
+        android:id="@+id/botaoData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecionar Data"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data não definida"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/botaoHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecionar Hora"/>
+
+    <TextView
+        android:id="@+id/textHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hora não definida"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/botaoAdicionar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Tarefa"
+        android:layout_marginTop="10dp"/>
+
+    <ListView
+        android:id="@+id/listaTarefas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
